@@ -12,7 +12,9 @@ header {
   font-family: 'JetBrains Mono', monospace;
 }
 
+/* title */
 h1 {
+  max-width: 100%;
   font-size: 70px;
   color: #ffc814e1; 
   text-shadow: 4px 4px #1e2525;
@@ -26,7 +28,8 @@ p {
 }
 
 #logo {
-  width: 10%;
+  width: 150px;
+  max-width: 100%;
   height: 10%;
   margin-top: 25px;
 }
@@ -37,6 +40,7 @@ p {
 
 #js {
   width: 1300px;
+  max-width: 100%;
   height: auto;
   border-radius: 5px 5px 5px 5px;
   box-shadow: 6px 6px 6px #101414;  
@@ -44,8 +48,8 @@ p {
 
 #install_button, 
 #github_button {
-  width: 100%;
-  max-width: 200px;
+  width: 150px;
+  max-width: 100%;
   padding: 12px 0;
   font-size: 30px;
   border: none;
