@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background: #283333;
+}
+
+header {
+  /* background: rgb(238, 218, 108); */
+  /* background: rgb(255, 236, 128); */
+  font-family: 'JetBrains Mono', monospace;
+}
+
+h1 {
+  font-size: 70px;
+  color: #ffc814e1; 
+  text-shadow: 4px 4px #1e2525;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: rgba(255, 236, 128, 0.349);
+  font-size: 20px;
+}
+
+#logo {
+  width: 10%;
+  height: 10%;
+  margin-top: 25px;
+}
+
+.container {
+  margin-top: 85px;
+}
+
+#js {
+  width: 1300px;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 6px 6px 6px #101414;  
+}
+
+#install_button, 
+#github_button {
+  width: 100%;
+  max-width: 200px;
+  padding: 12px 0;
+  font-size: 30px;
+  border: none;
+  border-radius: 8px;
+  margin: 5.5rem auto 2.5rem;
+  display: inline-block;
+  align-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffc814e1;
+  background-color: #1e2525;
+  transition: transform 700ms;
+  transform: scale(.8);
+}
+
+#install_button:hover {
+  color: #1e2525;
+  background-color: #ffc814e1;
+  transform: scale(0.7);
+  opacity: 1;
+}
+#github_button:hover {
+  color: #1e2525;
+  background-color: #ffc814e1;
+  transform: scale(0.7);
+  opacity: 1;
+}
+
+#container {
+  text-align: center;
+}
+
+#credits {
+  margin-top: 200px;
+  text-align: center;
+  color: rgb(177, 177, 177);
+}
+
+#author {
+  color: #ffc814e1;
+  text-decoration: none;
+}
+
+
+
+/* @media */
+
+@media (max-device-width: 480px) {
+  .container {
+    margin: 0;
+  }
+}
